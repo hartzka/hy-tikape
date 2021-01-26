@@ -1,0 +1,10 @@
+tikape/musicapplication/domain/Track.class
+tikape/musicapplication/database/Database.class
+tikape/musicapplication/MusicApplication.class
+tikape/musicapplication/domain/Artist.class
+tikape/musicapplication/domain/Album.class
+tikape/musicapplication/dao/AlbumDao.class
+tikape/musicapplication/dao/ArtistDao.class
+tikape/musicapplication/dao/Dao.class
+tikape/musicapplication/dao/TrackDao.class
+tikape/musicapplication/domain/ArtistData.class

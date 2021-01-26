@@ -1,0 +1,25 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <title>Album</title>
+        <meta charset="utf-8" />
+    </head>
+
+    <body>
+        <h1>
+            <a th:href="@{~/artists/{id}(id=${artist.id})}" th:text="${artist.name}">Artist name</a> and <span th:text="${album.title}">Album title</span>
+        </h1>
+
+        <h2>Tracks (total: <span th:text="${tracks.size()}">count</span>)</h2>
+
+        <ol>
+            <li th:each="track : ${tracks}">
+                <span th:text="${track.name}">Track name</span>
+            </li>
+        </ol>
+
+        <a th:href="@{~/albums}">Back to albums</a>
+
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <title>Artists</title>
+        <meta charset="utf-8" />
+    </head>
+
+    <body>
+        
+        <h1>Artists</h1>
+
+        <ul>
+            <li th:each="artist : ${artists}">
+                <a th:href="@{~/artists/{id}(id=${artist.id})}">
+                    <span th:text="${artist.name}">Artist name</span>
+                </a>
+            </li>
+        </ul>
+
+    </body>
+</html>

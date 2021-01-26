@@ -1,0 +1,46 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <title>Artists</title>
+        <meta charset="utf-8" />
+    </head>
+
+    <body>
+
+        <h1>Artists</h1>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>
+                        Artist
+                    </th>
+                    <th>
+                        Albums
+                    </th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr th:each="artist : ${artistdata}">
+                    <td>
+                        <a th:href="@{~/artists/{id}(id=${artist.id})}" th:text="${artist.name}">
+                            Artist
+                        </a>
+                    </td>
+                    <td th:text="${artist.albumCount}">
+                        Albums
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </body>
+</html>

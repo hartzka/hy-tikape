@@ -1,0 +1,13 @@
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @243ms to org.eclipse.jetty.util.log.Slf4jLog
+[Thread-0] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - == Spark has ignited ...
+[Thread-0] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:48108
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.4.6.v20170531
+[Thread-0] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[Thread-0] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[Thread-0] INFO org.eclipse.jetty.server.session - Scavenging every 660000ms
+[Thread-0] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@49b94915{HTTP/1.1,[http/1.1]}{0.0.0.0:48108}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @316ms
+[Thread-10] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - >>> Spark shutting down ...
+[Thread-10] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@49b94915{HTTP/1.1,[http/1.1]}{0.0.0.0:48108}
+[Thread-10] INFO org.eclipse.jetty.server.session - Stopped scavenging
+[Thread-10] INFO spark.embeddedserver.jetty.EmbeddedJettyServer - done

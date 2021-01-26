@@ -1,0 +1,50 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <title>Invoice summary</title>
+        <meta charset="utf-8" />
+    </head>
+
+    <body>
+
+        <h1>Customer</h1>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>
+                        Customer
+                    </th>
+                    <th>
+                        Total invoices
+                    </th>
+                    <th>
+                        Sum
+                    </th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr th:each="data : ${invoicedata}">
+                    <td th:text="${data.customer}">
+                        Customer name
+                    </td>
+                    <td th:text="${data.totalInvoices}">
+                        Total invoices
+                    </td>
+                    <td th:text="${data.totalSum}">
+                        Total sum
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </body>
+</html>

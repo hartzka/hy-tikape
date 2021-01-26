@@ -1,0 +1,10 @@
+/home/kaihartz/NetBeansProjects/hy-tikape-s18/osa07-Osa07_02.MusicApplicationOsa2/src/main/java/tikape/musicapplication/MusicApplicationOsa2.java
+/home/kaihartz/NetBeansProjects/hy-tikape-s18/osa07-Osa07_02.MusicApplicationOsa2/src/main/java/tikape/musicapplication/database/Database.java
+/home/kaihartz/NetBeansProjects/hy-tikape-s18/osa07-Osa07_02.MusicApplicationOsa2/src/main/java/tikape/musicapplication/domain/Track.java
+/home/kaihartz/NetBeansProjects/hy-tikape-s18/osa07-Osa07_02.MusicApplicationOsa2/src/main/java/tikape/musicapplication/domain/Album.java
+/home/kaihartz/NetBeansProjects/hy-tikape-s18/osa07-Osa07_02.MusicApplicationOsa2/src/main/java/tikape/musicapplication/domain/InvoiceData.java
+/home/kaihartz/NetBeansProjects/hy-tikape-s18/osa07-Osa07_02.MusicApplicationOsa2/src/main/java/tikape/musicapplication/dao/TrackDao.java
+/home/kaihartz/NetBeansProjects/hy-tikape-s18/osa07-Osa07_02.MusicApplicationOsa2/src/main/java/tikape/musicapplication/dao/ArtistDao.java
+/home/kaihartz/NetBeansProjects/hy-tikape-s18/osa07-Osa07_02.MusicApplicationOsa2/src/main/java/tikape/musicapplication/domain/Artist.java
+/home/kaihartz/NetBeansProjects/hy-tikape-s18/osa07-Osa07_02.MusicApplicationOsa2/src/main/java/tikape/musicapplication/dao/Dao.java
+/home/kaihartz/NetBeansProjects/hy-tikape-s18/osa07-Osa07_02.MusicApplicationOsa2/src/main/java/tikape/musicapplication/dao/AlbumDao.java
